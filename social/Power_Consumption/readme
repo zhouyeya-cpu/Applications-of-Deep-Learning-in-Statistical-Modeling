@@ -1,0 +1,10 @@
+Dataset: Power Consumption of Tetouan City
+
+Source: UCI Machine Learning Repository
+Link: https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city
+UCI ID: 849
+Domain: Energy / Power Consumption / Time-Series Monitoring
+Task: Tabular Regression
+Target Variable: Zone 1 Power Consumption
+
+The Power Consumption of Tetouan City dataset contains power consumption records from three different distribution networks in Tetouan City, Morocco. The dataset also includes environmental and weather-related variables such as temperature, humidity, wind speed, general diffuse flows, and diffuse flows. The prediction target used in this benchmark is Zone 1 Power Consumption, which represents the electricity consumption of the first distribution zone. In this benchmark, we use the dataset as a regression task to compare traditional statistical models, kernel methods, tree-based models, and deep learning models. Since the data are time-ordered, time features such as hour, day, month, and cyclical time encodings can be used to help predict power consumption patterns.
