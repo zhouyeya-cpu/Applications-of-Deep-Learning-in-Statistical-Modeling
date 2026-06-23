@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,Gaussian Process Regression,3000,0.02770075886317582,0.03276684385364825,0.9999813152543509,77.7579562664032,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,SVR-RBF,7192,0.03435722725449019,0.06335344450122835,0.9999301512832554,178.4163637161255,"{""C"": 100.0, ""epsilon"": 0.01, ""gamma"": 0.01}"
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,Random Forest,7192,0.016829905503067556,0.12880332448828766,0.9997112831623065,1.2143385410308838,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,MLP,7192,0.13423951698973804,0.20102763093160625,0.9992967180416543,2.834618330001831,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,HistGradientBoosting,7192,0.06624233714712399,0.2302334161988331,0.9990775248360957,0.8991909027099609,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,FT-Transformer,7192,0.14440522917513715,0.2514029939039019,0.9989000856762157,16.464757204055786,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,XGBoost,7192,0.0931445684049976,0.25238969828529895,0.9988914348639506,0.4860224723815918,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,Linear Regression,7192,0.8635757982208707,1.2071867447248692,0.9746389702582301,0.010372161865234375,{}
+UCI Air Quality (id=360),Computer Science / Air Quality Sensor Calibration,Benzene concentration,Ridge Regression,7192,0.8633427993867072,1.2073617271281663,0.974631617534089,1.3203518390655518,"{""alpha"": 1.0}"
