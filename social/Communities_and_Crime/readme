@@ -1,0 +1,10 @@
+Dataset: Communities and Crime
+
+Source: UCI Machine Learning Repository
+Link: https://archive.ics.uci.edu/dataset/183/communities+and+crime
+UCI ID: 183
+Domain: Social Science / Crime / Community Demographics
+Task: Tabular Regression
+Target Variable: ViolentCrimesPerPop
+
+The Communities and Crime dataset contains information about communities in the United States. It combines socio-economic data from the 1990 U.S. Census, law enforcement data from the 1990 Law Enforcement Management and Administrative Statistics survey, and crime data from the 1995 FBI Uniform Crime Reporting program. The prediction target used in this benchmark is ViolentCrimesPerPop, which represents the normalized per-capita violent crime rate for each community. In this benchmark, we use the dataset as a regression task to compare traditional statistical models, kernel methods, Gaussian process regression, tree-based models, and deep learning models. This dataset is useful for studying whether demographic, economic, and law-enforcement-related variables can predict community-level violent crime rates.
