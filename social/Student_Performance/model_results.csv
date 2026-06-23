@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,n_test_used,n_features_after_preprocess,mae,rmse,r2,train_time_sec,best_params
+UCI Student Performance,Social Science / Education,Final Grade,Ridge Regression,519,130,56,2.026140730048002,2.775307682184744,0.21015616641335888,2.2856855392456055,"{""alpha"": 100.0}"
+UCI Student Performance,Social Science / Education,Final Grade,Gaussian Process Regression,519,130,56,2.0352134452932718,2.7767451977396402,0.2093377296996698,0.2692868709564209,{}
+UCI Student Performance,Social Science / Education,Final Grade,XGBoost,519,130,56,2.140023051775419,2.7855923966040583,0.20429132484460344,0.1899096965789795,{}
+UCI Student Performance,Social Science / Education,Final Grade,SVR-RBF,519,130,56,2.019524606558824,2.8051389682504473,0.19308512980733228,0.30237698554992676,"{""C"": 10.0, ""epsilon"": 0.2, ""gamma"": 0.01}"
+UCI Student Performance,Social Science / Education,Final Grade,Random Forest,519,130,56,2.0504615384615383,2.812825844372387,0.1886567194970995,0.3665957450866699,{}
+UCI Student Performance,Social Science / Education,Final Grade,FT-Transformer,519,130,56,2.1434349573575533,2.8492330272646345,0.16751791547669037,1.3604955673217773,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200, ""patience"": 25}"
+UCI Student Performance,Social Science / Education,Final Grade,Linear Regression,519,130,56,2.156382187028527,2.86177993773442,0.16016991964318306,0.019893646240234375,{}
+UCI Student Performance,Social Science / Education,Final Grade,HistGradientBoosting,519,130,56,2.206226770433446,2.9105590283557317,0.1312960838785604,0.49938130378723145,{}
+UCI Student Performance,Social Science / Education,Final Grade,MLP,519,130,56,2.1750222172297056,2.925699403650721,0.12223479218450461,0.1191718578338623,{}
