@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,XGBoost,614,0.29401647592519775,0.3925265940433476,0.998521780330497,0.32057762145996094,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,HistGradientBoosting,614,0.2998816160537542,0.407846504063476,0.9984041418239766,0.4621717929840088,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,Gaussian Process Regression,614,0.3734222440786261,0.4871688777103198,0.9977230165341838,2.5268819332122803,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,Random Forest,614,0.35567792207791754,0.49488658158122195,0.9976503013799201,0.39775753021240234,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,SVR-RBF,614,0.5642697483065863,0.7310989980956026,0.9948719390024372,0.7017068862915039,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": ""scale""}"
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,MLP,614,0.5175724727231045,0.7454308754972002,0.9946689155879549,1.2046773433685303,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,FT-Transformer,614,0.5731807600987422,0.7674913180556627,0.9943487079999012,6.690561771392822,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,Linear Regression,614,2.1820470221279225,3.0254235827736182,0.912184095154691,0.01614689826965332,{}
+UCI Energy Efficiency,Energy / Climate / Built Environment,Heating Load,Ridge Regression,614,2.1828719729938393,3.0263673080251134,0.912129301496784,1.3310320377349854,"{""alpha"": 0.1}"
