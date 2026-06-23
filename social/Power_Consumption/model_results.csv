@@ -1,0 +1,9 @@
+dataset,domain,target,model,n_train_used,n_test_used,n_features_after_preprocess,mae,rmse,r2,train_time_sec,best_params
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,XGBoost,1600,400,20,594.5753064796875,871.4570574614767,0.9842097919120354,0.20183587074279785,{}
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,HistGradientBoosting,1600,400,20,648.9171387000159,919.6916881607266,0.9824134604287853,0.6409735679626465,{}
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,Random Forest,1600,400,20,733.3803594867036,1032.6242658038107,0.9778292429290453,0.23321270942687988,{}
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,Ridge Regression,1600,400,20,2190.864328232924,2910.8893072367514,0.8238237943972412,1.835843563079834,"{""alpha"": 100.0}"
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,Linear Regression,1600,400,20,2383.4976380437115,3162.274595341879,0.7920805925754273,0.016245365142822266,{}
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,SVR-RBF,1600,400,20,3489.7184808639595,4530.958184411226,0.5731493187637202,1.5527276992797852,"{""C"": 100.0, ""epsilon"": 10.0, ""gamma"": ""scale""}"
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,MLP,1600,400,20,5752.368200142733,6311.658667616414,0.1717091205562633,1.1977510452270508,{}
+UCI Power Consumption of Tetouan City,Energy / Power Consumption,Zone 1 Power Consumption,FT-Transformer,1600,400,20,30482.770095474218,31261.71366553437,-19.31989373652823,1.8279666900634766,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 80, ""patience"": 10}"
