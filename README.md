@@ -1,4 +1,4 @@
-# Applications-of-Deep-Learning-in-Statistical-Modeling
+
 # Applications of Deep Learning in Statistical Modeling
 
 This repository contains the code and experimental pipeline for our project on **applications of deep learning in statistical modeling**, with a focus on **tabular regression tasks**.
