@@ -1,0 +1,8 @@
+name: devEnv3.9
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - cudnn=8.1.0
+  - cudatoolkit=11.2
+prefix: C:\Users\Nanzh\.conda\envs\devEnv3.9
