@@ -1,0 +1,10 @@
+## Dataset: Student Performance
+
+Source: UCI Machine Learning Repository
+Link: https://archive.ics.uci.edu/dataset/320/student+performance
+UCI ID: 320
+Domain: Education / Student Achievement / Social Science
+Task: Tabular Regression
+Target Variable: G3
+
+The Student Performance dataset contains student achievement data from two Portuguese secondary schools. The dataset includes demographic, social, family-related, and school-related variables, as well as academic grade variables. The prediction target used in this benchmark is G3, which represents the final grade. In this benchmark, we use the dataset as a regression task to compare traditional statistical models, kernel methods, Gaussian process regression, tree-based models, and deep learning models. To make the prediction setting more meaningful, G1 and G2 can be removed because they are previous grade variables that are strongly correlated with G3. This makes the task harder but better reflects whether non-grade student information can predict final performance.
