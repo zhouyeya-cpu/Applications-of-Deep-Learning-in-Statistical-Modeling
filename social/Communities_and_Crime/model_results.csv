@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,n_test_used,n_features_after_preprocess,mae,rmse,r2,train_time_sec,best_params
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,Ridge Regression,1595,399,1306,0.09236136926217374,0.13181121350426486,0.6372497114030591,2.947176694869995,"{""alpha"": 100.0}"
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,Gaussian Process Regression,1595,399,1306,0.09001627541590124,0.13259179295599954,0.6329406115927787,14.430371522903442,{}
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,Random Forest,1595,399,1306,0.09263408521303258,0.13546959383904228,0.6168342275026765,1.3497681617736816,{}
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,XGBoost,1595,399,1306,0.09080904479948501,0.13633891814046836,0.611900809398547,1.1995606422424316,{}
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,SVR-RBF,1595,399,1306,0.09417613976898348,0.13847573573121177,0.5996402471405948,29.95574188232422,"{""C"": 1.0, ""epsilon"": 0.05, ""gamma"": ""scale""}"
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,HistGradientBoosting,1595,399,1306,0.09358008730016931,0.14061459828637646,0.5871770138944512,4.1726233959198,{}
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,Linear Regression,1595,399,1306,0.1029489802831179,0.14407596626402971,0.5666027694626852,0.19232749938964844,{}
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,FT-Transformer,1595,399,1306,0.10212863533942025,0.14696782067196015,0.5490300972971445,93.11318802833557,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 160, ""patience"": 20}"
+UCI Communities and Crime,Social Science / Crime,Violent Crimes Per Population,MLP,1595,399,1306,0.10493670984354525,0.15041184537198918,0.5276465093643952,0.8244328498840332,{}
