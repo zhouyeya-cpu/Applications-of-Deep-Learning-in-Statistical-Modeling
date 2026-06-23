@@ -1,0 +1,10 @@
+Dataset: SkillCraft1 Master Table Dataset
+
+Source: UCI Machine Learning Repository
+Link: https://archive.ics.uci.edu/dataset/272/skillcraft1+master+table+dataset
+UCI ID: 272
+Domain: Games / Esports / Player Performance Analytics
+Task: Tabular Regression
+Target Variable: LeagueIndex
+
+The SkillCraft1 Master Table Dataset contains gameplay and player-performance data from StarCraft II. The dataset includes variables related to player demographics and in-game behavior, such as age, weekly play time, total play time, actions per minute, hotkey usage, screen movements, action latency, and perception-action-cycle measurements. The prediction target used in this benchmark is LeagueIndex, which represents the player’s competitive league level, coded from lower to higher skill levels. In this benchmark, we use the dataset as a regression task to compare traditional statistical models, kernel methods, Gaussian process regression, tree-based models, and deep learning models. This dataset is useful for studying whether measurable gameplay behavior can predict player skill level in a competitive esports environment.
