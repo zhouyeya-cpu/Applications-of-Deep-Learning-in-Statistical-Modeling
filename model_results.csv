@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Student Performance,Social Science,Cooling Load,Gaussian Process Regression,519,2.108035760823903,2.817060939712346,0.186211702913183,0.2015242576599121,{}
+UCI Student Performance,Social Science,Cooling Load,Ridge Regression,519,2.1072131418387063,2.8271018185004344,0.1804001765876614,2.4236857891082764,"{""alpha"": 100.0}"
+UCI Student Performance,Social Science,Cooling Load,Linear Regression,519,2.12407266991534,2.836625325606644,0.17486899152900603,0.008544206619262695,{}
+UCI Student Performance,Social Science,Cooling Load,Random Forest,519,2.0594615384615387,2.8384952526198277,0.1737807665132184,0.5787475109100342,{}
+UCI Student Performance,Social Science,Cooling Load,SVR-RBF,519,2.0956357778652253,2.847981707260983,0.1682489702756318,0.33571362495422363,"{""C"": 1.0, ""epsilon"": 0.01, ""gamma"": 0.05}"
+UCI Student Performance,Social Science,Cooling Load,FT-Transformer,519,2.175253956134503,2.929979805959751,0.11966450990079258,1.2202229499816895,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Student Performance,Social Science,Cooling Load,XGBoost,519,2.2421351542839636,2.9576839204583263,0.10293796552627521,0.30550646781921387,{}
+UCI Student Performance,Social Science,Cooling Load,HistGradientBoosting,519,2.443214380419388,3.2009948297451847,-0.05072460323133132,0.4519217014312744,{}
+UCI Student Performance,Social Science,Cooling Load,MLP,519,2.59082811931606,3.3223053649593415,-0.13187391478869337,0.1917424201965332,{}
