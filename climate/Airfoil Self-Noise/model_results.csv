@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,HistGradientBoosting,1202,1.1211693342431388,1.689798998105291,0.9430039580122302,0.5590090751647949,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,Random Forest,1202,1.3007469767441682,1.8081115583286829,0.9347433093059805,0.4122593402862549,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,XGBoost,1202,1.4673654495188564,2.0353613508210007,0.9173091134406477,0.297086238861084,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,FT-Transformer,1202,1.7819297432630163,2.3305902622678905,0.891580735626974,9.082189083099365,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,Gaussian Process Regression,1202,1.6382348649376752,2.356160390591479,0.8891886354826268,2.349976062774658,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,SVR-RBF,1202,1.8213132859035466,2.6303788461743203,0.8618944258786657,1.085242509841919,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": ""scale""}"
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,MLP,1202,3.1544076992296577,4.141113507981418,0.6576984461854265,1.8311150074005127,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,Linear Regression,1202,3.6724145641788004,4.704109194974887,0.5582979754897286,0.005765676498413086,{}
+UCI Airfoil Self-Noise (id=291),Physics / Aerodynamics / Environmental Noise,Scaled sound pressure level,Ridge Regression,1202,3.6865645860480587,4.712995578184021,0.5566275887220531,1.4020500183105469,"{""alpha"": 10.0}"
