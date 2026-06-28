@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,Random Forest,5197,0.4373015384615384,0.6096184228994901,0.49680284454357826,1.4986660480499268,{}
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,HistGradientBoosting,5197,0.481271813312427,0.6335808972244101,0.45646669525007233,2.2687456607818604,{}
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,XGBoost,5197,0.5154608687987694,0.6591207182392195,0.41176354262922243,5.10405421257019,{}
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,MLP,5197,0.5278752293392308,0.6700819212267239,0.3920360710368541,10.109057903289795,{}
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,SVR-RBF,5197,0.5169592853934016,0.671831251314756,0.3888576004764477,22.00640320777893,"{""C"": 1.0, ""epsilon"": 0.2, ""gamma"": ""scale""}"
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,Gaussian Process Regression,3000,0.5336359055110437,0.6843792823655303,0.36581535976485313,22.81395697593689,{}
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,FT-Transformer,5197,0.5415924981924204,0.687106936486366,0.3607500879198414,28.070191144943237,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,Ridge Regression,5197,0.5644369218559803,0.7356509224866264,0.26723354613997496,3.250929117202759,"{""alpha"": 10.0}"
+UCI Wine Quality,Biology / Biochemistry / Food Science,quality,Linear Regression,5197,0.5644129055680379,0.7356891017072533,0.26715748512455717,0.01872992515563965,{}
