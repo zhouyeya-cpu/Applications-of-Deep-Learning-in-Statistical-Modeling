@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,HistGradientBoosting,7008,139.81270793883417,227.4082757700498,0.8758790570793633,2.6866936683654785,{}
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,FT-Transformer,7008,145.36858474949724,228.40043572639763,0.8747936394987592,66.7130184173584,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,XGBoost,7008,154.31826769465317,241.35422508066677,0.8601886764064509,5.991798162460327,{}
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,Random Forest,7008,145.2308105022831,241.66360762341037,0.8598300093365299,2.1026699542999268,{}
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,MLP,7008,175.67377867117114,280.1300892293785,0.8116558850422799,64.30696177482605,{}
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,Gaussian Process Regression,3000,190.61704111288603,291.9201541156628,0.795468268602137,19.196234941482544,{}
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,SVR-RBF,7008,226.81800857560322,360.5550492236552,0.6879848376030595,21.32927966117859,"{""C"": 50.0, ""epsilon"": 0.2, ""gamma"": ""scale""}"
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,Ridge Regression,7008,330.13140177134875,440.679450472503,0.5339010400361659,3.0199697017669678,"{""alpha"": 10.0}"
+UCI Seoul Bike Sharing Demand,Business / Mobility Service,Rented Bike Count,Linear Regression,7008,330.73858447488584,441.0837693143009,0.5330453657218481,0.0159912109375,{}
