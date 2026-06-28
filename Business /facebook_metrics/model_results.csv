@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,Linear Regression,400,1.0482557363656968,2.112993409353945,0.9999175844630611,0.010996580123901367,{}
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,Gaussian Process Regression,400,1.0555408285082715,2.1132201292723924,0.9999175667760716,0.9986433982849121,{}
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,Ridge Regression,400,1.0488344824685552,2.1145282669492294,0.9999174646879071,2.9819321632385254,"{""alpha"": 0.001}"
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,Random Forest,400,9.643160000000002,32.963255710563544,0.9799426752394944,0.5264675617218018,{}
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,XGBoost,400,10.32224669456482,41.11846593420059,0.96879051412757,2.3793628215789795,{}
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,HistGradientBoosting,400,36.54335053534267,82.14501744015797,0.8754409578649451,1.4528682231903076,{}
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,FT-Transformer,400,28.401910487413407,115.29824202362468,0.7546092552679502,10.866331815719604,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,SVR-RBF,400,51.2736824830302,133.9522317855391,0.6687829268521809,0.6967222690582275,"{""C"": 50.0, ""epsilon"": 0.01, ""gamma"": 0.01}"
+UCI Facebook Metrics,Business / Social Media Marketing,Total Interactions,MLP,400,101.87942194102462,244.99705344407937,-0.10798665565223109,0.878612756729126,{}
