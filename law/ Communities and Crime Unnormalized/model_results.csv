@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,Ridge Regression,1595,0.004742296326526987,0.006461672598314632,0.9999999998800254,2.996354341506958,"{""alpha"": 0.001}"
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,Linear Regression,1595,0.004729562218015001,0.006486056379643325,0.9999999998791183,0.0619661808013916,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,Gaussian Process Regression,1595,0.00540850905276055,0.007633055115881948,0.9999999998325844,28.771405458450317,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,FT-Transformer,1595,29.491810191830893,39.19123462245104,0.9955865611335563,101.45238089561462,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,XGBoost,1595,22.587942170642673,51.70147750841713,0.9923192233937201,8.308551788330078,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,Random Forest,1595,26.75443228070173,60.22444230414058,0.9895781504564872,8.652914047241211,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,MLP,1595,38.198637396724564,61.9512839548636,0.9889719215097796,11.74548625946045,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,HistGradientBoosting,1595,27.884350866096774,78.90492019419152,0.9821101213386633,8.48974871635437,{}
+UCI Communities and Crime Unnormalized,Law / Crime / Public Safety,violentPerPop,SVR-RBF,1595,183.30869381415346,333.8854196475779,0.6796725666754593,2.7891359329223633,"{""C"": 50.0, ""epsilon"": 0.01, ""gamma"": ""scale""}"
