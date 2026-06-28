@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Liver Disorders,Health and Medicine,drinks,Gaussian Process Regression,276,2.3676940893868053,2.8419678681636964,0.24124042122640854,0.0800173282623291,{}
+UCI Liver Disorders,Health and Medicine,drinks,SVR-RBF,276,2.317793805840813,2.9252984352902773,0.1960922458988068,0.286360502243042,"{""C"": 1.0, ""epsilon"": 0.01, ""gamma"": ""scale""}"
+UCI Liver Disorders,Health and Medicine,drinks,Random Forest,276,2.462149758454106,2.9847669146219067,0.16307468585259666,0.3465464115142822,{}
+UCI Liver Disorders,Health and Medicine,drinks,FT-Transformer,276,2.416945559391077,2.985242243996658,0.16280810097407783,2.825735330581665,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Liver Disorders,Health and Medicine,drinks,HistGradientBoosting,276,2.400182883322944,3.0605344792864018,0.12004510198271257,3.5061559677124023,{}
+UCI Liver Disorders,Health and Medicine,drinks,XGBoost,276,2.448511957474377,3.0646750696345832,0.11766251329047062,1.105485200881958,{}
+UCI Liver Disorders,Health and Medicine,drinks,Ridge Regression,276,2.5626980081009125,3.113094160342096,0.08956200533245195,2.515622615814209,"{""alpha"": 100.0}"
+UCI Liver Disorders,Health and Medicine,drinks,Linear Regression,276,2.654176753065505,3.329268843948524,-0.04127056815868868,0.0071010589599609375,{}
+UCI Liver Disorders,Health and Medicine,drinks,MLP,276,2.6531367679501696,3.3528181643512833,-0.056053356708211766,0.21876811981201172,{}

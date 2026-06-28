@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,Gaussian Process Regression,816,0.1815013929869541,0.2345721619087214,0.7386924012753846,1.213371992111206,{}
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,SVR-RBF,816,0.1836989616114392,0.24117018293924092,0.7237855951790944,3.118638753890991,"{""C"": 1.0, ""epsilon"": 0.1, ""gamma"": 0.01}"
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,FT-Transformer,816,0.18662256951425613,0.2415565645624856,0.7228998334250607,71.76789712905884,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,Ridge Regression,816,0.20258033964887656,0.255020675166132,0.6911483822836607,2.441711187362671,"{""alpha"": 10.0}"
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,Linear Regression,816,0.20600702103588125,0.26012848371646796,0.6786525063716888,0.009165525436401367,{}
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,Random Forest,816,0.2024656862745077,0.2686979295455163,0.657131381147845,0.7956724166870117,{}
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,XGBoost,816,0.21121381497850636,0.28061691281951384,0.6260385948396618,1.222296953201294,{}
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,HistGradientBoosting,816,0.22179047647400513,0.3075725980178253,0.5507434887844798,3.918182134628296,{}
+UCI Infrared Thermography Temperature,Health and Medicine,aveOralM,MLP,816,0.49022863277769246,0.6788221270734638,-1.188321254545127,1.5513687133789062,{}

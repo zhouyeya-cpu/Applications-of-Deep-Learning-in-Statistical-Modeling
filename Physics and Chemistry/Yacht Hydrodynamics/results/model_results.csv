@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,Gaussian Process Regression,246,0.2554562400479477,0.3753326901611274,0.9990519048563442,0.1370244026184082,{}
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,XGBoost,246,0.2310958337471369,0.4935947665280146,0.998360315725683,1.1269376277923584,{}
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,Random Forest,246,0.30588279569892907,0.5457719430961745,0.9979953361885879,0.34859204292297363,{}
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,FT-Transformer,246,0.42642627625696117,0.7306558789116658,0.9964071018607814,8.46578311920166,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,SVR-RBF,246,1.5337114897354411,2.9264004654912528,0.9423649527830342,0.2599778175354004,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": ""scale""}"
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,MLP,246,1.8991306975074154,3.289188261803018,0.9271890659695031,0.4796743392944336,{}
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,HistGradientBoosting,246,1.0986957925286294,3.4006556236396857,0.9221704629383733,3.5917954444885254,{}
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,Ridge Regression,246,6.5868632840427965,8.090067400338278,0.5595228150283625,2.604604721069336,"{""alpha"": 10.0}"
+UCI Yacht Hydrodynamics,Physics and Chemistry,Residuary resistance,Linear Regression,246,6.8075268130272555,8.222082168071102,0.5450299966509161,0.006995201110839844,{}

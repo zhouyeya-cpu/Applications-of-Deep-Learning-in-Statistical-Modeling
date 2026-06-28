@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,HistGradientBoosting,824,2.9026557601979452,4.4776375122220715,0.9221936004726915,3.5244500637054443,{}
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,XGBoost,824,3.2158021644750927,4.504152536327461,0.9212693868200382,1.1273605823516846,{}
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,Random Forest,824,3.7955636044728225,5.58482727071087,0.8789577618039189,0.4080464839935303,{}
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,FT-Transformer,824,3.8432577121776337,5.623772469707873,0.8772637253862776,29.352405071258545,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,Gaussian Process Regression,824,4.036475586803512,5.754602085375716,0.8714867070533512,1.159559726715088,{}
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,SVR-RBF,824,4.110266357966226,5.798100285847211,0.869536537689164,1.4734907150268555,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": 0.1}"
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,MLP,824,4.5272073152257954,6.06642165690585,0.8571821005894731,1.3614790439605713,{}
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,Ridge Regression,824,7.751761421939317,9.796410930619146,0.6275641808582495,2.5545904636383057,"{""alpha"": 1.0}"
+UCI Concrete Compressive Strength,Physics and Chemistry / Construction Materials,Concrete compressive strength,Linear Regression,824,7.745392872421345,9.796707832398447,0.6275416055429021,0.0069997310638427734,{}

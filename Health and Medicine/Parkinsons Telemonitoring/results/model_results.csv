@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,Random Forest,4700,0.7110894734751809,1.5693955717479555,0.9777733524248674,3.1726064682006836,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,HistGradientBoosting,4700,1.1862565872893545,1.9180722823798142,0.9667999256208586,4.246054410934448,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,FT-Transformer,4700,1.6291085599404191,2.4455309190726284,0.9460296252416802,331.7021403312683,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,XGBoost,4700,2.137272963503574,2.993343849267608,0.9191421232426678,1.3570098876953125,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,MLP,4700,3.8263253863458817,5.511514954168399,0.7258734515390215,6.662679195404053,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,Gaussian Process Regression,4700,3.952479190398924,5.680574300388087,0.7087985004727653,56.80943059921265,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,SVR-RBF,4700,4.244021733659925,6.207067469998859,0.6523181258948151,61.142680644989014,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": 0.1}"
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,Linear Regression,4700,8.053791050253961,9.659540398110614,0.15798070419827348,0.012964725494384766,{}
+UCI Parkinsons Telemonitoring,Health and Medicine / Remote Patient Monitoring,total_UPDRS,Ridge Regression,4700,8.057586773425701,9.659896423402419,0.15791863381444737,2.6615688800811768,"{""alpha"": 10.0}"

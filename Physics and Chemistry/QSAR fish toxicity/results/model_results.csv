@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,FT-Transformer,726,0.6799957970839281,0.9764848249217266,0.60589705234036,15.635347843170166,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,SVR-RBF,726,0.6773383661081015,0.9780386885787368,0.6046417957945065,1.9715983867645264,"{""C"": 1.0, ""epsilon"": 0.1, ""gamma"": ""scale""}"
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,Gaussian Process Regression,726,0.6918810362974004,1.0035372375461142,0.5837582196319379,0.8117735385894775,{}
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,Random Forest,726,0.7166650388331144,1.0069390791978534,0.5809314413764386,0.3785548210144043,{}
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,XGBoost,726,0.7184326183140933,1.023611912353119,0.5669387263201153,1.1196069717407227,{}
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,Linear Regression,726,0.7396159846174988,1.026623208383941,0.5643869899331233,0.008211135864257812,{}
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,Ridge Regression,726,0.7401850304043356,1.0266515742642806,0.5643629173870826,2.5242557525634766,"{""alpha"": 10.0}"
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,HistGradientBoosting,726,0.7759901515067762,1.0742079304094159,0.5230691728439225,3.3777637481689453,{}
+UCI QSAR fish toxicity,Physics and Chemistry / QSAR Toxicity Modeling,LC50,MLP,726,1.0642287551332128,1.3914802070966874,0.1997369731176537,0.1108849048614502,{}
