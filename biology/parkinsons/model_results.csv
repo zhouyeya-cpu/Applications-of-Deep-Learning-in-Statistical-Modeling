@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,Random Forest,4700,0.10054548697872481,0.18680698800486548,0.9994532778631109,3.8388335704803467,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,HistGradientBoosting,4700,0.1614928508919558,0.22439773097908583,0.9992111083758779,3.003290891647339,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,MLP,4700,0.40173412530483765,0.5844403313966641,0.9946486817555759,27.10802173614502,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,FT-Transformer,4700,0.4453959491700518,0.5988980588720187,0.9943806480496589,48.978654861450195,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,XGBoost,4700,0.45445751474843127,0.6001904155359575,0.9943563699864478,5.533184766769409,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,SVR-RBF,4700,0.5188959338758563,0.8922069540200032,0.9875287027554485,18.70350217819214,"{""C"": 50.0, ""epsilon"": 0.1, ""gamma"": 0.05}"
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,Gaussian Process Regression,3000,0.5015679753934782,0.9365962980459708,0.9862568813351449,31.886871576309204,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,Linear Regression,4700,1.8771473336353974,2.4383151835975867,0.9068548795183631,0.012005805969238281,{}
+UCI Parkinsons Telemonitoring,Biology / Biomedical,motor_UPDRS,Ridge Regression,4700,1.8785550505207318,2.4404074350014886,0.9066949603887203,2.712972640991211,"{""alpha"": 10.0}"
