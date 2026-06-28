@@ -1,0 +1,9 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,Random Forest,15788,32.557588041550545,68.10322221407392,0.536523767761898,15.166248083114624,{}
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,HistGradientBoosting,15788,35.81778737261863,71.33600780680946,0.491477996754466,6.9733970165252686,{}
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,Gaussian Process Regression,15788,37.91880410258067,77.19597710121508,0.40450038631634644,1166.919075012207,{}
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,FT-Transformer,15788,40.95153618970339,81.7773550508736,0.33172030350712167,1782.5682594776154,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,MLP,15788,45.36756568452228,81.81653983336122,0.33107971863314734,35.84672689437866,{}
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,SVR-RBF,15788,34.86089412409467,83.72507313220666,0.2995079384105379,471.70073556900024,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": 0.1}"
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,Ridge Regression,15788,52.542557926431805,91.17357413297233,0.1693269760367464,24.666621685028076,"{""alpha"": 1.0}"
+UCI Appliances Energy Prediction,Energy / Smart Home / Building Energy Management,Appliances Energy Use,Linear Regression,15788,52.5476928761465,91.17482597600879,0.16930416505473966,0.0845022201538086,{}
