@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,HistGradientBoosting,331,3.8118433666148324,5.475097049517577,0.8213117945108834,1.0704083442687988,{}
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,Random Forest,331,3.939118014916815,5.6860966079337825,0.8072738205031457,0.44949865341186523,{}
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,XGBoost,331,3.851813226722809,5.821510611798025,0.7979849939555298,9.05650281906128,{}
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,Gaussian Process Regression,331,4.372651387762579,6.055552837942931,0.7814152597931955,0.220228910446167,{}
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,SVR-RBF,331,4.174381468173544,6.224638871203506,0.7690379823377667,0.855475664138794,"{""C"": 50.0, ""epsilon"": 0.01, ""gamma"": ""scale""}"
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,FT-Transformer,331,4.765942764282226,6.446544267643909,0.7522770846275566,59.14416551589966,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 120}"
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,Ridge Regression,331,5.295438510798047,7.285875578806405,0.6835713889428343,5.052903413772583,"{""alpha"": 10.0}"
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,Linear Regression,331,5.305355690074041,7.31475352452166,0.6810580555095946,0.012987375259399414,{}
+UCI Real Estate Valuation,Business / Real Estate,house price of unit area,MLP,331,5.633506915493162,7.368389463172634,0.6763635791395715,1.8902587890625,{}
