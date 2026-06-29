@@ -1,0 +1,10 @@
+dataset,domain,target,model,n_train_used,mae,rmse,r2,train_time_sec,best_params
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,Random Forest,33405,21.944793263090677,37.29507900631776,0.8421471317433142,2.9952163696289062,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,FT-Transformer,33405,28.981915924969304,44.04853327796861,0.7798025332036891,692.398824930191,"{""d_token"": 32, ""n_heads"": 4, ""n_layers"": 2, ""dropout"": 0.1, ""lr"": 0.001, ""epochs"": 200}"
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,HistGradientBoosting,33405,29.744515248024648,45.41268516918075,0.7659526231496301,0.9509134292602539,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,MLP,33405,36.01806380583536,53.6087270690362,0.673847730548966,33.27131652832031,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,XGBoost,33405,39.3679741828995,58.38821175604907,0.6130990791000879,0.6175000667572021,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,SVR-RBF,33405,39.36020243662551,63.14984847730856,0.5474213732854795,1164.2261500358582,"{""C"": 100.0, ""epsilon"": 0.2, ""gamma"": 0.1}"
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,Gaussian Process Regression,2500,46.988020971489874,68.45529721058516,0.46818138417419697,11.417507648468018,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,Linear Regression,33405,56.92820866774943,80.19652784847906,0.27010473552852854,0.058571577072143555,{}
+UCI Beijing PM2.5 (id=381),Climate and Environment / Air Quality,PM2.5 concentration,Ridge Regression,33405,56.92769185346804,80.19662123912552,0.27010303556888926,2.07808256149292,"{""alpha"": 1.0}"
